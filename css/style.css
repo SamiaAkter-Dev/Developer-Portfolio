@@ -1,0 +1,340 @@
+/* All Common CSS Start  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+/* All Common CSS End  */
+ 
+
+#headerPart{
+    padding-top: 51px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.logowithmenu{
+     display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    column-gap: 70px;
+}
+.menu ul li a{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #474747;
+}
+.button a{
+   background: #FD6E0A;
+   padding: 20px 35px;
+   border-radius: 5px;
+   font-size: 20px;
+   font-weight: bold;
+   color: #fff;
+}
+.logo{
+    width: 50%;
+}
+.menu{
+    width: 30%;
+}
+.button{
+    width: 20%;
+}
+  /* banner part start  */
+#bannerPart{
+ background: url(../images/Frame\ 2.png);   
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ padding-top: 250px;
+ padding-bottom: 400px;
+}
+.bannerText h3{
+    font-size: 45px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    color: #474747;
+}
+.bannerText h1{
+    font-size: 85px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #181818;
+}
+.bannerText p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    color: #474747;
+    width: 60%;
+
+}
+.bannerBtn a{
+    background: #FD6E0A;
+    padding: 18px 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    font-family: "Open Sans", sans-serif;
+}
+.bannerBtn{
+    display: flex;
+    column-gap: 30px;
+    margin-top: 20px;
+}
+a.btnTwo{
+   background: transparent;
+    padding: 18px 20px;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    transition:all linear .4s;
+    font-family: "Open Sans", sans-serif;
+  
+}
+a.btnTwo:hover{
+    background: #FD6E0A;
+    color: #fff;
+}
+
+/* About Part Start  */
+
+#aboutpart{
+    padding: 100px 0;
+}
+.aboutBg{
+    background: #E8ECEA;
+    border-radius: 30px;
+    padding: 130px 155px;
+    text-align: center;  
+    margin-top: 130px;
+}
+.aboutBg p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    color: #474747;
+    line-height: 30px;
+}
+.aboutBg h1{
+   font-size:35px ;
+   font-weight:bold ;
+  font-family: "Open Sans", sans-serif;
+   margin-bottom: 30px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.infoItem h4{
+    color: #757575; 
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif; 
+}
+.infoItem h3{
+    color: #474747; 
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif; 
+}
+/* service Part  */
+#servicePart .container h2{
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+#servicePart .container p{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: "Open Sans", sans-serif;
+    width: 909px;
+}
+   
+.service-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    background: #E8ECEA;
+    height: 377px;
+    width: 267px;
+    border-radius: 10px;
+}
+.container-two{
+    width: 1140px;
+    margin: 0 auto;
+}
+.card-content{
+    padding:50px 35px 35px 35px ;
+}
+
+.card-content h3{
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+.card-content p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    color: #474747;
+}
+.card-content img{
+    padding-bottom: 20px;
+}  
+
+  /* Resume Part Start  */
+ #resumePart h2{
+    text-align: center;
+    margin: 110px 0;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+ }
+.resume-partOne{
+    width: 570px;
+}
+.resume-partOne h3{
+    font-size: 30px;
+    font-weight:bold;
+    font-family: "Open Sans", sans-serif; 
+    margin-bottom: 30px;
+    color: #474747;
+}
+.resume-partOne h5{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 20px;
+}
+.resume-partOne h6{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif; 
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume-partOne p{
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 28px;
+    font-family: "Open Sans", sans-serif; 
+    color: #474747;
+}
+.underline{
+    width: 550px;
+    height: 1px;
+    background: #D1D1D1;
+    margin: 30px 0;
+}
+.resume-row{
+    display: flex;
+}
+.serviceBtn a{
+    background: #FD6E0A;
+    padding: 20px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+}
+.serviceBtn{
+   text-align: center;
+   margin-top: 50px;
+}
+
+/* footer part start  */
+#footerPart{
+    background: #FFF8F3;
+    padding: 100px;
+    width: 100%;
+    margin-top: 120px;
+}
+.f-contact{
+    width: 50%;
+}
+.f-contact h2{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif; 
+    color: #181818; 
+    margin-bottom: 20px;
+}
+.f-contact p{
+    font-size: 16px;
+    font-weight: 400;
+     font-family: "Open Sans", sans-serif; 
+     color:#474747;
+}
+.icon{
+    color: #FD6E0A;
+    margin-top: 30px;
+}
+.footer-row{
+    display: flex;  
+}
+.messeges{
+    width: 50%;
+}
+.messeges h2{
+     font-size: 35px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif; 
+    color: #181818; 
+    margin-bottom: 20px;
+    margin-left: 300px;
+}
+.messeges form input{
+    display: block;
+     padding: 18px 30px;
+     margin: 30px;
+     margin-left: 300px;
+     border: none;
+}
+.messeges form textarea{
+    padding: 50px 50px;
+    font-size: 20px;
+    margin-left: 300px;
+}
+.f-btn a{
+    background: #FD6E0A;
+    padding: 20px 30px;
+    margin-left: 300px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;  
+}
